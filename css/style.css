@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@300&family=Roboto+Condensed:wght@300;700&display=swap");
+
 :root {
   --color: #4ed1ff;
 }
@@ -115,3 +117,31 @@
     border-color: orange;
   }
 }
+
+.nav-item > a {
+  color: #333333;
+  font-family: "Onest", sans-serif;
+}
+
+.nav-item > a:hover {
+  color: #4ed1ff;
+}
+
+#about {
+  background: #333333;
+  color: white;
+  height: 100vh;
+}
+
+#skills {
+  background: #333333;
+  color: white;
+  height: 100vh;
+}
+
+#projects {
+  background: #333333;
+  color: white;
+  height: 100vh;
+}
+
