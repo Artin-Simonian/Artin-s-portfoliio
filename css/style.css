@@ -4,6 +4,11 @@
   --color: #4ed1ff;
 }
 
+body {
+  padding-top: 60px; /* Adjust the value to match the height of your navbar */
+}
+
+
 #hero {
   font-size: 16px;
   font-family: "Montserrat", sans-sherif;
@@ -143,5 +148,15 @@
   background: #333333;
   color: white;
   height: 100vh;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; /* Ensures the navbar appears on top of other content */
+  background: white;
+  color: black;
+  padding: 10px 0; /* You can adjust the padding as needed */
 }
 
