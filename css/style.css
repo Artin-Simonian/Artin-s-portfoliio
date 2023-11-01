@@ -146,6 +146,9 @@ body {
   background: #333333;
   color: white;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #projects {
@@ -189,3 +192,9 @@ body {
   justify-content: center;
   align-content: center;
 }
+
+.skills-icon{
+  text-align: center;
+  margin: 0 15px;
+}
+
