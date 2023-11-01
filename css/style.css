@@ -171,13 +171,21 @@ body {
   border-radius: 50%;
   border: #4ed1ff 5px solid;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .about-artin{
   width: 50%;
   margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.skill-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
