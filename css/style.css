@@ -136,6 +136,10 @@ body {
   background: #333333;
   color: white;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 #skills {
@@ -154,9 +158,26 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100; /* Ensures the navbar appears on top of other content */
+  z-index: 100; 
   background: white;
   color: black;
-  padding: 10px 0; /* You can adjust the padding as needed */
+  padding: 10px 0; 
+}
+
+
+
+#about img{
+  height: 200px;
+  border-radius: 50%;
+  border: #4ed1ff 5px solid;
+  margin-right: 10px;
+}
+
+.about-artin{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
