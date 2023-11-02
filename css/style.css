@@ -173,6 +173,11 @@ body {
   align-items: center;
 }
 
+#skills h1{
+  flex: 0;
+  text-align: center;
+}
+
 #projects {
   background: #333333;
   color: white;
@@ -224,3 +229,35 @@ body {
   margin: 0 15px;
 }
 
+.project-card img{
+  width: 400px;
+  height: 200px;
+}
+
+#projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.project-list a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.project-card{
+  text-align: center;
+  margin: 10px;
+}
+
+.project-card:hover{
+  cursor: pointer;
+}
