@@ -261,3 +261,17 @@ body {
 .project-card:hover{
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px){
+  .about-artin p{
+    font-size: 15px;
+  }
+  .skills-icon svg{
+    width: 50px;
+    height: 50px;
+  }
+  .project-card img{
+    width: 300px;
+    height: 150px;
+  }
+}
