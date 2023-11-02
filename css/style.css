@@ -204,6 +204,10 @@ body {
   margin-bottom: 10px;
 }
 
+#about p{
+  text-align: center;
+}
+
 .about-artin{
   width: 50%;
   margin: auto;
