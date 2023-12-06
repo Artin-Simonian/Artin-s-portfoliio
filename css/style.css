@@ -249,7 +249,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
+}
+
+.project-card img{
+  border: solid #fff 2px;
+  border-radius: 10%;
 }
 
 .project-list a{
@@ -260,6 +264,7 @@ body {
 .project-card{
   text-align: center;
   margin: 10px;
+
 }
 
 .project-card:hover{
